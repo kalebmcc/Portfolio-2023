@@ -1,1 +1,11 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './styles/_header.scss';
+@import './styles/_app.scss';
+@import './styles/_home';
+@import './styles/_stacks';
+@import '../node_modules/animate.css/animate.css';
+//Glide js
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+//Glide Theme
+@import "@glidejs/glide/src/assets/sass/glide.theme";

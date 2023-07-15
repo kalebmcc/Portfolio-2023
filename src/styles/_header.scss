@@ -1,0 +1,36 @@
+
+
+
+.header {
+    color: white;
+    background-color: black;
+    a{
+        color:white;
+        border-radius: 5px;
+    }
+
+    a:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .navbar-brand{
+        margin-left: 20%;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    button {
+        color: white;
+    }
+    span {
+        color: black;
+    }
+
+    .navbar-toggler-icon{
+        -webkit-text-fill-color: black;
+    }
+}

@@ -1,3 +1,47 @@
-.app{
-    background-color: cornsilk;
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+.App {
+    overflow-y: auto;
+    .columns {
+        display: flex;
+        
+        @media (max-width:1000px) {
+            display: block;
+        }
+
+        .column {
+            width: 70%;
+            padding-left: 0%;
+            scroll-behavior: smooth;
+            height: 100vh;
+            margin-left: 50%;
+                        
+            @media (max-width: 1000px){
+                width: 100%;
+                margin-left: 0;                    
+
+            }
+
+            @media (min-width: 1001px){
+                width: 50%;                  
+
+            }
+
+            @media (min-width: 1500px){
+                width: 40%;
+            }
+
+            @media (min-width: 1800px) {
+                width: 50%;
+            }
+        }
+    }
 }

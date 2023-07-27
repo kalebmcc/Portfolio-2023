@@ -6,7 +6,7 @@ export const About = () => {
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
-					entry.target.classList.add('animate__animated','animate__fadeInUp');
+					entry.target.classList.add('animate__animated', 'animate__fadeInUp');
 				}
 			});
 		});
@@ -25,6 +25,16 @@ export const About = () => {
 				and greatly enjoyed my time mixing live shows, televised promos, and
 				corporate events. In 2021, I felt it was time for a change, and decided
 				to transition to software development.
+				<br />
+				<br />
+				Check out my media site&nbsp;
+				<a
+					href='https://www.kalebmccullough.com/'
+					target='_blank'
+					rel='noreferrer'>
+					here
+				</a>
+				.
 			</p>
 		</div>
 	);

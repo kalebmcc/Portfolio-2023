@@ -21,4 +21,12 @@
         text-align: left;
         padding-top: 2em;
     }
+
+    a {
+        color: white !important;
+
+        &:hover {
+            color: orange !important;
+        }
+    }
 }

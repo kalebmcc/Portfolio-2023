@@ -7,6 +7,7 @@ import { Projects } from './components/projects';
 import { About } from './components/about';
 import { Experiences } from './components/experiences';
 
+
 function App() {
 	return (
 		<div className='App'>

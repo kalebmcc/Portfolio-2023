@@ -81,7 +81,7 @@ export const Experiences = () => {
 					</div>
 				</div>
 			</div>
-			<h5>View Full Résumé</h5>
+			<h5>View Full Resume</h5>
 		</div>
 	);
 };

@@ -46,7 +46,7 @@ export const Projects = () => {
 							<h5 class='stacks'>React</h5>
 							<h5 class='stacks'>HTML</h5>
 							<h5 class='stacks'>CSS</h5>
-							<h5 class='stacks'>API Call</h5>
+							<h5 class='stacks'>API</h5>
 						</div>
 					</div>
 				</div>
@@ -78,7 +78,7 @@ export const Projects = () => {
 						<div class='tech'>
 							<h5 class='stacks'>HTML</h5>
 							<h5 class='stacks'>CSS</h5>
-							<h5 class='stacks' style={{ width: 200 }}>
+							<h5 class='stacks' >
 								Javascript
 							</h5>
 						</div>

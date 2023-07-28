@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import 'animate.css';
-import TypeIt from 'typeit-react';
 
 const Home = () => {
 	return (
@@ -15,7 +14,7 @@ const Home = () => {
 				<div className='animate__animated animate__fadeInUp'>
 					<h1>Kaleb McCullough</h1>
 					<h3>
-						Junior Developer @{' '}
+						Junior Developer @ 
 						<a href='https://moosylvania.com/' target='_blank' rel='noreferrer'>
 							Moosylvania
 						</a>
@@ -25,18 +24,6 @@ const Home = () => {
 						I build digital products that blend my creative and technical
 						skills, and have been doing this full-time for 2 years.
 					</p>
-					{/* <TypeIt
-						options={{
-							loop: true,
-							// strings: [
-							// 	"I'm a Web Developer located in Saint Louis, and have been doing it full-time for almost two years.",
-							// 	'I love working with all forms of media.',
-							// ],
-						}}
-						element={'p'}
-						style={{ fontSize: 18 }}>
-						I love working with all forms of tech and media!
-					</TypeIt> */}
 				</div>
 			</div>
 			<div className='animate__animated animate__fadeInUp animate__delay-2s'>

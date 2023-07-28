@@ -27,7 +27,7 @@ export const About = () => {
 				to transition to software development.
 				<br />
 				<br />
-				Check out my media site&nbsp;
+				Check out my previous photo/video work&nbsp;
 				<a
 					href='https://www.kalebmccullough.com/'
 					target='_blank'

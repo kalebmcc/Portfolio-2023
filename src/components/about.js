@@ -18,7 +18,7 @@ export const About = () => {
 	}, []);
 
 	return (
-		<div className='about'>
+		<div className='about' id='about'>
 			<h2>About</h2>
 			<p>
 				I previously worked in the field of Audio Engineering from 2014 - 2020,

@@ -81,7 +81,7 @@ export const Experiences = () => {
 					</div>
 				</div>
 			</div>
-			<h5>View Full Resume</h5>
+			<a href="https://drive.google.com/file/d/1yqOt7r6M9jYckkEXjUVOGJ2J-YGyHJxC/view?usp=sharing" target="_blank"><h5>View Full Resume</h5></a>
 		</div>
 	);
 };

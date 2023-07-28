@@ -19,7 +19,7 @@ export const Projects = () => {
 
 	return (
 		<div className='animate__animated animate__fadeInUp'>
-			<div className='projects'>
+			<div className='projects' id='projects'>
 				<h2>Projects</h2>
 				<div className='project'>
 					<div className='project-image'>
@@ -61,7 +61,7 @@ export const Projects = () => {
 					</div>
 					<div className='information'>
 						<a
-							href='https://boat-better.netlify.app/'
+							href='https://kalebs-simon-game.netlify.app/'
 							target='_blank'
 							rel='noreferrer'>
 							<h4>

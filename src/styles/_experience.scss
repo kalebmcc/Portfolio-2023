@@ -28,6 +28,29 @@
         padding-top: 5em;
     }
 
+    a {
+        color: lightblue;
+        text-decoration: none;
+
+        &:hover {
+            color:orange;
+        }
+    }
+
+    .resume-link {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+
+    }
+
+    .resume {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(27, 39, 68);
+        border-radius: 20px;
+    }
+
     .experience {
         display: flex;
         border-radius: 20px;

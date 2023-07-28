@@ -17,7 +17,7 @@ export const Experiences = () => {
 	}, []);
 
 	return (
-		<div className='experiences'>
+		<div className='experiences' id='experiences'>
 			<h2>Experiences</h2>
 			<div className='experience'>
 				<div className='date'>
@@ -81,7 +81,7 @@ export const Experiences = () => {
 					</div>
 				</div>
 			</div>
-			<a href="https://drive.google.com/file/d/1yqOt7r6M9jYckkEXjUVOGJ2J-YGyHJxC/view?usp=sharing" target="_blank"><h5>View Full Resume</h5></a>
+			<a className='resume-link' href="https://drive.google.com/file/d/1yqOt7r6M9jYckkEXjUVOGJ2J-YGyHJxC/view?usp=sharing" target="_blank" rel="noreferrer"><h3 className='resume'>View Full Resume</h3></a>
 		</div>
 	);
 };

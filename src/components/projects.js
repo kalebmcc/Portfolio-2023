@@ -24,6 +24,35 @@ export const Projects = () => {
 				<div className='project'>
 					<div className='project-image'>
 						<img
+							src={require('../assets/DinnerDash.png')}
+							alt='Dinnerdash screenshot'
+							href='https://dinnerdash-frontend-35e81dba1831.herokuapp.com/'
+							target='_blank'
+						/>
+					</div>
+					<div className='information'>
+						<a
+							href='https://dinnerdash-frontend-35e81dba1831.herokuapp.com/'
+							target='_blank'
+							rel='noreferrer'>
+							<h4>
+								Dinnerdash <span className='arrow'>↗</span>
+							</h4>
+						</a>
+						<p>
+						Dinner Dash is a full-stack application that is able to allow for multiple users to all share their favorite recipes with each other. Each user is able to edit and delete their own posts with the authorization token from Django.
+						</p>
+						<div class='tech'>
+							<h5 class='stacks'>React</h5>
+							<h5 class='stacks'>Django</h5>
+							<h5 class='stacks'>Python</h5>
+							<h5 class='stacks'>PostgreSQL</h5>
+						</div>
+					</div>
+				</div>
+				<div className='project'>
+					<div className='project-image'>
+						<img
 							src={require('../assets/BoatBetter.png')}
 							alt='boat better screenshot'
 							href='https://boat-better.netlify.app/'

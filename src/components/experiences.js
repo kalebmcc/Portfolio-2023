@@ -29,8 +29,10 @@ export const Experiences = () => {
 							Moosylvania
 						</a>
 					</h3>
-
-					<h4>Junior Developer</h4>
+					<div style={{maxWidth:'165px',display:'flex',flexDirection:'column'}}>
+					<h4 style={{lineHeight:'45px',borderBottom:'1px solid white'}}>Web Developer</h4>
+					<p style={{fontSize:'1.2em'}}>Junior Developer</p>
+					</div>
 					<p>
 						Implementing interactive sites for nationally recognized brands who
 						partnered with this advertising agency. I would assist in deploying

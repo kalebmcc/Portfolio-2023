@@ -14,7 +14,7 @@ const Home = () => {
 				<div className='animate__animated animate__fadeInUp'>
 					<h1>Kaleb McCullough</h1>
 					<h3>
-						Junior Developer @&nbsp;
+						Web Developer @&nbsp;
 						<a href='https://moosylvania.com/' target='_blank' rel='noreferrer'>
 							Moosylvania
 						</a>
